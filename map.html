@@ -1,0 +1,3467 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1074df885b62116efa9254f3c63061b5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1074df885b62116efa9254f3c63061b5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1074df885b62116efa9254f3c63061b5 = L.map(
+                "map_1074df885b62116efa9254f3c63061b5",
+                {
+                    center: [40.49, -74.445],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_83e4718eadfedd5731d2f03e5b616a51 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_83e4718eadfedd5731d2f03e5b616a51.addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+            var circle_marker_deb77b40e0bd559ed447dce3142225a2 = L.circleMarker(
+                [40.48325391544828, -74.41781237082759],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.0, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_3343b862f84261d2bc3f604db24f7f14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f6a1800a2a1e71cac41602cd544e1b6 = $(`<div id="html_2f6a1800a2a1e71cac41602cd544e1b6" style="width: 100.0%; height: 100.0%;">NJ 18 (WW II Veteran\`s Memorial Highway) & US 1 (Herbert Highway): 145.0 crashes</div>`)[0];
+                popup_3343b862f84261d2bc3f604db24f7f14.setContent(html_2f6a1800a2a1e71cac41602cd544e1b6);
+            
+        
+
+        circle_marker_deb77b40e0bd559ed447dce3142225a2.bindPopup(popup_3343b862f84261d2bc3f604db24f7f14)
+        ;
+
+        
+    
+    
+            circle_marker_deb77b40e0bd559ed447dce3142225a2.bindTooltip(
+                `<div>
+                     NJ 18 (WW II Veteran's Memorial Highway) & US 1 (Herbert Highway)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_11e056e6334bdd3978bb7ba40b1edd64 = L.circleMarker(
+                [40.48536440456141, -74.42277552736842],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.4, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_33b49b15dc8b41f7e9e20acfa4a23ce1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a82cf94f1c83b8fe6d664915dc0f48c = $(`<div id="html_7a82cf94f1c83b8fe6d664915dc0f48c" style="width: 100.0%; height: 100.0%;">NJ 18 (WW II Veteran\`s Memorial Highway) & Paulus Boulevard: 57.0 crashes</div>`)[0];
+                popup_33b49b15dc8b41f7e9e20acfa4a23ce1.setContent(html_7a82cf94f1c83b8fe6d664915dc0f48c);
+            
+        
+
+        circle_marker_11e056e6334bdd3978bb7ba40b1edd64.bindPopup(popup_33b49b15dc8b41f7e9e20acfa4a23ce1)
+        ;
+
+        
+    
+    
+            circle_marker_11e056e6334bdd3978bb7ba40b1edd64.bindTooltip(
+                `<div>
+                     NJ 18 (WW II Veteran's Memorial Highway) & Paulus Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e592daee7d1c90073b0b2890e8edc50b = L.circleMarker(
+                [40.503602580606064, -74.44852972878788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.6, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_f0c53e6c554d60a25a42a0cd459cd1ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c92aa56ebdef7eb9ec7218fdd2af0bf = $(`<div id="html_3c92aa56ebdef7eb9ec7218fdd2af0bf" style="width: 100.0%; height: 100.0%;">Bishop Place & George Street (MIDDLESEX COUNTY 672): 33.0 crashes</div>`)[0];
+                popup_f0c53e6c554d60a25a42a0cd459cd1ed.setContent(html_3c92aa56ebdef7eb9ec7218fdd2af0bf);
+            
+        
+
+        circle_marker_e592daee7d1c90073b0b2890e8edc50b.bindPopup(popup_f0c53e6c554d60a25a42a0cd459cd1ed)
+        ;
+
+        
+    
+    
+            circle_marker_e592daee7d1c90073b0b2890e8edc50b.bindTooltip(
+                `<div>
+                     Bishop Place & George Street (MIDDLESEX COUNTY 672)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eb1f88d9c703dbeb5af97e442ddad6e8 = L.circleMarker(
+                [40.48932931782608, -74.45097082434782],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.6, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_a3a280a8a295a9071af358051acb6a4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72ea1ccdc9a3221c993cec44594121a8 = $(`<div id="html_72ea1ccdc9a3221c993cec44594121a8" style="width: 100.0%; height: 100.0%;">Handy Street & Joyce Kilmer Avenue: 23.0 crashes</div>`)[0];
+                popup_a3a280a8a295a9071af358051acb6a4c.setContent(html_72ea1ccdc9a3221c993cec44594121a8);
+            
+        
+
+        circle_marker_eb1f88d9c703dbeb5af97e442ddad6e8.bindPopup(popup_a3a280a8a295a9071af358051acb6a4c)
+        ;
+
+        
+    
+    
+            circle_marker_eb1f88d9c703dbeb5af97e442ddad6e8.bindTooltip(
+                `<div>
+                     Handy Street & Joyce Kilmer Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eb7ca9e465a0206c1aafede8078eb23c = L.circleMarker(
+                [40.492434575, -74.45326879090909],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_330520ccbefeec0d5ff408e315582358 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb972a5870466d9a7aa75e89151232d5 = $(`<div id="html_bb972a5870466d9a7aa75e89151232d5" style="width: 100.0%; height: 100.0%;">Louis Street & NJ 27 (French Street): 22.0 crashes</div>`)[0];
+                popup_330520ccbefeec0d5ff408e315582358.setContent(html_bb972a5870466d9a7aa75e89151232d5);
+            
+        
+
+        circle_marker_eb7ca9e465a0206c1aafede8078eb23c.bindPopup(popup_330520ccbefeec0d5ff408e315582358)
+        ;
+
+        
+    
+    
+            circle_marker_eb7ca9e465a0206c1aafede8078eb23c.bindTooltip(
+                `<div>
+                     Louis Street & NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_30fa17ed952252755ab7c98d6d64422c = L.circleMarker(
+                [40.468436455, -74.47892222818182],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_9df98949c0ae3b6cae43e317df11afa0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4d635f4285631d365d1c16e01e792ff = $(`<div id="html_d4d635f4285631d365d1c16e01e792ff" style="width: 100.0%; height: 100.0%;">How Lane (MIDDLESEX COUNTY 680) & NJ 91 (Jersey Avenue): 22.0 crashes</div>`)[0];
+                popup_9df98949c0ae3b6cae43e317df11afa0.setContent(html_d4d635f4285631d365d1c16e01e792ff);
+            
+        
+
+        circle_marker_30fa17ed952252755ab7c98d6d64422c.bindPopup(popup_9df98949c0ae3b6cae43e317df11afa0)
+        ;
+
+        
+    
+    
+            circle_marker_30fa17ed952252755ab7c98d6d64422c.bindTooltip(
+                `<div>
+                     How Lane (MIDDLESEX COUNTY 680) & NJ 91 (Jersey Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_72704a027917bb76e4b904130026d41b = L.circleMarker(
+                [40.50762260095238, -74.46365360047619],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_0399a4cba8236034f02f1a8c9362be55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17fce1d1b335e86649db0cd96a814722 = $(`<div id="html_17fce1d1b335e86649db0cd96a814722" style="width: 100.0%; height: 100.0%;">George Street (MIDDLESEX COUNTY 672) & Landing Lane (MIDDLESEX COUNTY 609): 21.0 crashes</div>`)[0];
+                popup_0399a4cba8236034f02f1a8c9362be55.setContent(html_17fce1d1b335e86649db0cd96a814722);
+            
+        
+
+        circle_marker_72704a027917bb76e4b904130026d41b.bindPopup(popup_0399a4cba8236034f02f1a8c9362be55)
+        ;
+
+        
+    
+    
+            circle_marker_72704a027917bb76e4b904130026d41b.bindTooltip(
+                `<div>
+                     George Street (MIDDLESEX COUNTY 672) & Landing Lane (MIDDLESEX COUNTY 609)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ce521a7c15696746665dc0966e2aa49 = L.circleMarker(
+                [40.48582751285714, -74.4266681095238],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.2, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_64df24e7abef2d1aad0ef7f995e5aa57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6a95bee156829454a9745c3082c05b5 = $(`<div id="html_f6a95bee156829454a9745c3082c05b5" style="width: 100.0%; height: 100.0%;">NJ 18 (WW II Veteran\`s Memorial Highway) & Phelps Avenue: 21.0 crashes</div>`)[0];
+                popup_64df24e7abef2d1aad0ef7f995e5aa57.setContent(html_f6a95bee156829454a9745c3082c05b5);
+            
+        
+
+        circle_marker_2ce521a7c15696746665dc0966e2aa49.bindPopup(popup_64df24e7abef2d1aad0ef7f995e5aa57)
+        ;
+
+        
+    
+    
+            circle_marker_2ce521a7c15696746665dc0966e2aa49.bindTooltip(
+                `<div>
+                     NJ 18 (WW II Veteran's Memorial Highway) & Phelps Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_afd418ab778335b83e8de046675cbca8 = L.circleMarker(
+                [40.498041046000004, -74.4401220375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_8457c92e065f661773fca321e445ddbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba672d7256739c1dbee38f224aaa8f54 = $(`<div id="html_ba672d7256739c1dbee38f224aaa8f54" style="width: 100.0%; height: 100.0%;">NJ 18 (WW II Veteran\`s Memorial Highway) & NJ 27 (Albany Street): 20.0 crashes</div>`)[0];
+                popup_8457c92e065f661773fca321e445ddbb.setContent(html_ba672d7256739c1dbee38f224aaa8f54);
+            
+        
+
+        circle_marker_afd418ab778335b83e8de046675cbca8.bindPopup(popup_8457c92e065f661773fca321e445ddbb)
+        ;
+
+        
+    
+    
+            circle_marker_afd418ab778335b83e8de046675cbca8.bindTooltip(
+                `<div>
+                     NJ 18 (WW II Veteran's Memorial Highway) & NJ 27 (Albany Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_14dec6ee22ac869962804b489a4a2d7d = L.circleMarker(
+                [40.48610891473684, -74.42722452842105],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.8, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_4dc4d5b05a0e40951c2c9493527350af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6a04dbd03ec408dc174d17001bfb0d2 = $(`<div id="html_b6a04dbd03ec408dc174d17001bfb0d2" style="width: 100.0%; height: 100.0%;">Carpender Road & NJ 18 (WW II Veteran\`s Memorial Highway): 19.0 crashes</div>`)[0];
+                popup_4dc4d5b05a0e40951c2c9493527350af.setContent(html_b6a04dbd03ec408dc174d17001bfb0d2);
+            
+        
+
+        circle_marker_14dec6ee22ac869962804b489a4a2d7d.bindPopup(popup_4dc4d5b05a0e40951c2c9493527350af)
+        ;
+
+        
+    
+    
+            circle_marker_14dec6ee22ac869962804b489a4a2d7d.bindTooltip(
+                `<div>
+                     Carpender Road & NJ 18 (WW II Veteran's Memorial Highway)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4b7a6143065d6022180588e6e1f28ffd = L.circleMarker(
+                [40.489867268333334, -74.43729860444445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_ce7aee21bbee5d5c308cac9e458d1ea9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_922cbe637c0019dc068208bf90cfc91d = $(`<div id="html_922cbe637c0019dc068208bf90cfc91d" style="width: 100.0%; height: 100.0%;">NJ 18 (WW II & Korean Veteran\`s Memorial Highway) & Paul Robeson Boulevard: 18.0 crashes</div>`)[0];
+                popup_ce7aee21bbee5d5c308cac9e458d1ea9.setContent(html_922cbe637c0019dc068208bf90cfc91d);
+            
+        
+
+        circle_marker_4b7a6143065d6022180588e6e1f28ffd.bindPopup(popup_ce7aee21bbee5d5c308cac9e458d1ea9)
+        ;
+
+        
+    
+    
+            circle_marker_4b7a6143065d6022180588e6e1f28ffd.bindTooltip(
+                `<div>
+                     NJ 18 (WW II & Korean Veteran's Memorial Highway) & Paul Robeson Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b95f352090207786b7993c48a482ca11 = L.circleMarker(
+                [40.49209279777778, -74.45383092944445],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_7270149ec4b3114a9831c55fa8351362 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9403dff3f780c5e03a717d4a845f2918 = $(`<div id="html_9403dff3f780c5e03a717d4a845f2918" style="width: 100.0%; height: 100.0%;">James Street & NJ 27 (French Street): 18.0 crashes</div>`)[0];
+                popup_7270149ec4b3114a9831c55fa8351362.setContent(html_9403dff3f780c5e03a717d4a845f2918);
+            
+        
+
+        circle_marker_b95f352090207786b7993c48a482ca11.bindPopup(popup_7270149ec4b3114a9831c55fa8351362)
+        ;
+
+        
+    
+    
+            circle_marker_b95f352090207786b7993c48a482ca11.bindTooltip(
+                `<div>
+                     James Street & NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_140f1b5fbe751b2f54817ad0b73b0cf1 = L.circleMarker(
+                [40.489789979444446, -74.44785241666666],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.6, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_ec9bf57e42490e1b291e862658a9ba74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74da0e5964a6bb058db787937adb814c = $(`<div id="html_74da0e5964a6bb058db787937adb814c" style="width: 100.0%; height: 100.0%;">Livingston Avenue (MIDDLESEX COUNTY 691) & Suydam Street: 18.0 crashes</div>`)[0];
+                popup_ec9bf57e42490e1b291e862658a9ba74.setContent(html_74da0e5964a6bb058db787937adb814c);
+            
+        
+
+        circle_marker_140f1b5fbe751b2f54817ad0b73b0cf1.bindPopup(popup_ec9bf57e42490e1b291e862658a9ba74)
+        ;
+
+        
+    
+    
+            circle_marker_140f1b5fbe751b2f54817ad0b73b0cf1.bindTooltip(
+                `<div>
+                     Livingston Avenue (MIDDLESEX COUNTY 691) & Suydam Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_20c6b238efe499cd2c09e8a30d896a2e = L.circleMarker(
+                [40.49379703058824, -74.45442860411765],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.4, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_1d74ec404188efc293f1468fa3c4d013 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b31bad6413e017fc80c5c9fe927e3133 = $(`<div id="html_b31bad6413e017fc80c5c9fe927e3133" style="width: 100.0%; height: 100.0%;">Louis Street & Somerset Street: 17.0 crashes</div>`)[0];
+                popup_1d74ec404188efc293f1468fa3c4d013.setContent(html_b31bad6413e017fc80c5c9fe927e3133);
+            
+        
+
+        circle_marker_20c6b238efe499cd2c09e8a30d896a2e.bindPopup(popup_1d74ec404188efc293f1468fa3c4d013)
+        ;
+
+        
+    
+    
+            circle_marker_20c6b238efe499cd2c09e8a30d896a2e.bindTooltip(
+                `<div>
+                     Louis Street & Somerset Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f4e0c7ecbd459537761d972cabe5c4d = L.circleMarker(
+                [40.4869278875, -74.432557100625],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.2, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_1a66a4abd4c2c15a513764284c7a9385 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2008ba55bb793dd4169d449f0d5e0873 = $(`<div id="html_2008ba55bb793dd4169d449f0d5e0873" style="width: 100.0%; height: 100.0%;">NJ 172 (Clifton Avenue) & NJ 18 (WW II & Korean Veteran\`s Memorial Highway): 16.0 crashes</div>`)[0];
+                popup_1a66a4abd4c2c15a513764284c7a9385.setContent(html_2008ba55bb793dd4169d449f0d5e0873);
+            
+        
+
+        circle_marker_3f4e0c7ecbd459537761d972cabe5c4d.bindPopup(popup_1a66a4abd4c2c15a513764284c7a9385)
+        ;
+
+        
+    
+    
+            circle_marker_3f4e0c7ecbd459537761d972cabe5c4d.bindTooltip(
+                `<div>
+                     NJ 172 (Clifton Avenue) & NJ 18 (WW II & Korean Veteran's Memorial Highway)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6093f7f1f3cda7046e2c57dce13a208f = L.circleMarker(
+                [40.46828935, -74.47901986],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_97de6a7ee435faad753692cb3f0b8420 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dce42b68d012a187c4cb38990b5eefa8 = $(`<div id="html_dce42b68d012a187c4cb38990b5eefa8" style="width: 100.0%; height: 100.0%;">NJ 91 (Jersey Avenue): Suspected Serious Injury (A)</div>`)[0];
+                popup_97de6a7ee435faad753692cb3f0b8420.setContent(html_dce42b68d012a187c4cb38990b5eefa8);
+            
+        
+
+        circle_marker_6093f7f1f3cda7046e2c57dce13a208f.bindPopup(popup_97de6a7ee435faad753692cb3f0b8420)
+        ;
+
+        
+    
+    
+            circle_marker_6093f7f1f3cda7046e2c57dce13a208f.bindTooltip(
+                `<div>
+                     NJ 91 (Jersey Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ff1d259947a13bf8eefe2d0cba7826dd = L.circleMarker(
+                [40.49157721, -74.4549591],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_d8c3184986516b7a370b0d6d66b9d599 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d2e6163abcf740fc114512849d10718 = $(`<div id="html_0d2e6163abcf740fc114512849d10718" style="width: 100.0%; height: 100.0%;">NJ 27 (French Street): Suspected Minor Injury (B)</div>`)[0];
+                popup_d8c3184986516b7a370b0d6d66b9d599.setContent(html_0d2e6163abcf740fc114512849d10718);
+            
+        
+
+        circle_marker_ff1d259947a13bf8eefe2d0cba7826dd.bindPopup(popup_d8c3184986516b7a370b0d6d66b9d599)
+        ;
+
+        
+    
+    
+            circle_marker_ff1d259947a13bf8eefe2d0cba7826dd.bindTooltip(
+                `<div>
+                     NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4dc2976b3e89ab8a37442c4841c227b = L.circleMarker(
+                [40.48475005, -74.44773659],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_5fcc1b212f1be3d7666f451120596bc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e2672c4433f85e7995e09313635e865 = $(`<div id="html_2e2672c4433f85e7995e09313635e865" style="width: 100.0%; height: 100.0%;">Remsen Avenue: Possible Injury (C)</div>`)[0];
+                popup_5fcc1b212f1be3d7666f451120596bc8.setContent(html_2e2672c4433f85e7995e09313635e865);
+            
+        
+
+        circle_marker_a4dc2976b3e89ab8a37442c4841c227b.bindPopup(popup_5fcc1b212f1be3d7666f451120596bc8)
+        ;
+
+        
+    
+    
+            circle_marker_a4dc2976b3e89ab8a37442c4841c227b.bindTooltip(
+                `<div>
+                     Remsen Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bcb34d908d82ef6acf3f1c92f9db1a5a = L.circleMarker(
+                [40.48333659, -74.41619751],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_c49ee85b1d0ee547970eeb5a63a581cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70a1eba4d7fed7ef6057e626135e8ca2 = $(`<div id="html_70a1eba4d7fed7ef6057e626135e8ca2" style="width: 100.0%; height: 100.0%;">RT 18: No Apparent Injury (O)</div>`)[0];
+                popup_c49ee85b1d0ee547970eeb5a63a581cc.setContent(html_70a1eba4d7fed7ef6057e626135e8ca2);
+            
+        
+
+        circle_marker_bcb34d908d82ef6acf3f1c92f9db1a5a.bindPopup(popup_c49ee85b1d0ee547970eeb5a63a581cc)
+        ;
+
+        
+    
+    
+            circle_marker_bcb34d908d82ef6acf3f1c92f9db1a5a.bindTooltip(
+                `<div>
+                     RT 18
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e688b8f98be1d51db26caac2f1a82883 = L.circleMarker(
+                [40.48948789, -74.45117048],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_34cd525df7a27d867af303cd4789448f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8471d9859adeeb31f67079ec76792b3f = $(`<div id="html_8471d9859adeeb31f67079ec76792b3f" style="width: 100.0%; height: 100.0%;">Handy Street: Suspected Serious Injury (A)</div>`)[0];
+                popup_34cd525df7a27d867af303cd4789448f.setContent(html_8471d9859adeeb31f67079ec76792b3f);
+            
+        
+
+        circle_marker_e688b8f98be1d51db26caac2f1a82883.bindPopup(popup_34cd525df7a27d867af303cd4789448f)
+        ;
+
+        
+    
+    
+            circle_marker_e688b8f98be1d51db26caac2f1a82883.bindTooltip(
+                `<div>
+                     Handy Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2c14572f2e945d8b76c82c8c50d59ab = L.circleMarker(
+                [40.4883321, -74.44928753],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_56d0f2a07454ba35caf3c3462834c3e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eafb3c937b4bb0a58d952df1a7eecf34 = $(`<div id="html_eafb3c937b4bb0a58d952df1a7eecf34" style="width: 100.0%; height: 100.0%;">Livingston Avenue (MIDDLESEX COUNTY 691): Possible Injury (C)</div>`)[0];
+                popup_56d0f2a07454ba35caf3c3462834c3e7.setContent(html_eafb3c937b4bb0a58d952df1a7eecf34);
+            
+        
+
+        circle_marker_d2c14572f2e945d8b76c82c8c50d59ab.bindPopup(popup_56d0f2a07454ba35caf3c3462834c3e7)
+        ;
+
+        
+    
+    
+            circle_marker_d2c14572f2e945d8b76c82c8c50d59ab.bindTooltip(
+                `<div>
+                     Livingston Avenue (MIDDLESEX COUNTY 691)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1cb411eba8d414e9363951fc6f24d6ec = L.circleMarker(
+                [40.49042623, -74.45282674],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_3d9ac60288eefa031c6ea6e39f1eb4ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3f006fac807ccf1d9c744f6955be522 = $(`<div id="html_d3f006fac807ccf1d9c744f6955be522" style="width: 100.0%; height: 100.0%;">RAIL ROAD AV: Suspected Minor Injury (B)</div>`)[0];
+                popup_3d9ac60288eefa031c6ea6e39f1eb4ff.setContent(html_d3f006fac807ccf1d9c744f6955be522);
+            
+        
+
+        circle_marker_1cb411eba8d414e9363951fc6f24d6ec.bindPopup(popup_3d9ac60288eefa031c6ea6e39f1eb4ff)
+        ;
+
+        
+    
+    
+            circle_marker_1cb411eba8d414e9363951fc6f24d6ec.bindTooltip(
+                `<div>
+                     RAIL ROAD AV
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_94b28ca18dae7e420a88cce5b50327b1 = L.circleMarker(
+                [40.48556744, -74.40322473],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_69f1d4c907d4fbe4f0d714481e566608 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62b4e2e432052b5b9dd6fee0af11d8c0 = $(`<div id="html_62b4e2e432052b5b9dd6fee0af11d8c0" style="width: 100.0%; height: 100.0%;">Stockton Road: No Apparent Injury (O)</div>`)[0];
+                popup_69f1d4c907d4fbe4f0d714481e566608.setContent(html_62b4e2e432052b5b9dd6fee0af11d8c0);
+            
+        
+
+        circle_marker_94b28ca18dae7e420a88cce5b50327b1.bindPopup(popup_69f1d4c907d4fbe4f0d714481e566608)
+        ;
+
+        
+    
+    
+            circle_marker_94b28ca18dae7e420a88cce5b50327b1.bindTooltip(
+                `<div>
+                     Stockton Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7f4cf6a9a5aa3f5a17c8c4b38676e054 = L.circleMarker(
+                [40.4865013, -74.45422409],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_b57bfd87d9da22399866eb09427b1c09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b00426f8aebc496c9a35155dea622e09 = $(`<div id="html_b00426f8aebc496c9a35155dea622e09" style="width: 100.0%; height: 100.0%;">Joyce Kilmer Avenue: Possible Injury (C)</div>`)[0];
+                popup_b57bfd87d9da22399866eb09427b1c09.setContent(html_b00426f8aebc496c9a35155dea622e09);
+            
+        
+
+        circle_marker_7f4cf6a9a5aa3f5a17c8c4b38676e054.bindPopup(popup_b57bfd87d9da22399866eb09427b1c09)
+        ;
+
+        
+    
+    
+            circle_marker_7f4cf6a9a5aa3f5a17c8c4b38676e054.bindTooltip(
+                `<div>
+                     Joyce Kilmer Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e8eadf228349a60d71b46d8e117dddba = L.circleMarker(
+                [40.49681886, -74.44437253],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_228b2cab42035b8f15709a8f2af4f6b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4492d3ea1b3aac912414addb34541fe7 = $(`<div id="html_4492d3ea1b3aac912414addb34541fe7" style="width: 100.0%; height: 100.0%;">NJ 27 Secondary (Albany Street): No Apparent Injury (O)</div>`)[0];
+                popup_228b2cab42035b8f15709a8f2af4f6b2.setContent(html_4492d3ea1b3aac912414addb34541fe7);
+            
+        
+
+        circle_marker_e8eadf228349a60d71b46d8e117dddba.bindPopup(popup_228b2cab42035b8f15709a8f2af4f6b2)
+        ;
+
+        
+    
+    
+            circle_marker_e8eadf228349a60d71b46d8e117dddba.bindTooltip(
+                `<div>
+                     NJ 27 Secondary (Albany Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c13391db4ed3ee7c6c252c4fe61aae41 = L.circleMarker(
+                [40.503064, -74.45438316],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_58efe4a83b583b1fc988ea05a0c50e38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd86ea260e16facf1cd1fde54a5255a5 = $(`<div id="html_dd86ea260e16facf1cd1fde54a5255a5" style="width: 100.0%; height: 100.0%;">Sicard Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_58efe4a83b583b1fc988ea05a0c50e38.setContent(html_dd86ea260e16facf1cd1fde54a5255a5);
+            
+        
+
+        circle_marker_c13391db4ed3ee7c6c252c4fe61aae41.bindPopup(popup_58efe4a83b583b1fc988ea05a0c50e38)
+        ;
+
+        
+    
+    
+            circle_marker_c13391db4ed3ee7c6c252c4fe61aae41.bindTooltip(
+                `<div>
+                     Sicard Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08b915be25612e1a5638b70e4451adae = L.circleMarker(
+                [40.48715539, -74.45362934],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_9a30dbaf6e44a1a89cb01a6364803470 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62de1aadcd81e738ba53ad42afa217b9 = $(`<div id="html_62de1aadcd81e738ba53ad42afa217b9" style="width: 100.0%; height: 100.0%;">Joyce Kilmer Avenue: Possible Injury (C)</div>`)[0];
+                popup_9a30dbaf6e44a1a89cb01a6364803470.setContent(html_62de1aadcd81e738ba53ad42afa217b9);
+            
+        
+
+        circle_marker_08b915be25612e1a5638b70e4451adae.bindPopup(popup_9a30dbaf6e44a1a89cb01a6364803470)
+        ;
+
+        
+    
+    
+            circle_marker_08b915be25612e1a5638b70e4451adae.bindTooltip(
+                `<div>
+                     Joyce Kilmer Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_134dc24be2d71534503059b6ceb75278 = L.circleMarker(
+                [40.4849801, -74.44232288],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_cb0ad656027f92107e9a27281a39c1be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46e642b40f2b2ac566ae6fdbc6cdc910 = $(`<div id="html_46e642b40f2b2ac566ae6fdbc6cdc910" style="width: 100.0%; height: 100.0%;">Paul Robeson Boulevard: No Apparent Injury (O)</div>`)[0];
+                popup_cb0ad656027f92107e9a27281a39c1be.setContent(html_46e642b40f2b2ac566ae6fdbc6cdc910);
+            
+        
+
+        circle_marker_134dc24be2d71534503059b6ceb75278.bindPopup(popup_cb0ad656027f92107e9a27281a39c1be)
+        ;
+
+        
+    
+    
+            circle_marker_134dc24be2d71534503059b6ceb75278.bindTooltip(
+                `<div>
+                     Paul Robeson Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_439905fc582cf76e7d731ae37ae6ef91 = L.circleMarker(
+                [40.48539161, -74.42277464],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_2d36859b87271acf21a0529e3078909a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd1df7f36bd05211e3e4ff56677e7a52 = $(`<div id="html_cd1df7f36bd05211e3e4ff56677e7a52" style="width: 100.0%; height: 100.0%;">Paulus Boulevard: No Apparent Injury (O)</div>`)[0];
+                popup_2d36859b87271acf21a0529e3078909a.setContent(html_cd1df7f36bd05211e3e4ff56677e7a52);
+            
+        
+
+        circle_marker_439905fc582cf76e7d731ae37ae6ef91.bindPopup(popup_2d36859b87271acf21a0529e3078909a)
+        ;
+
+        
+    
+    
+            circle_marker_439905fc582cf76e7d731ae37ae6ef91.bindTooltip(
+                `<div>
+                     Paulus Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aed03c118563cab6bb29354c77a469d0 = L.circleMarker(
+                [40.49243138, -74.45322237],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_976e66186503d4f857e2da33a9cc5b41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9237debc9eda651fe3e357282e4c20dc = $(`<div id="html_9237debc9eda651fe3e357282e4c20dc" style="width: 100.0%; height: 100.0%;">NJ 27 (French Street): Suspected Minor Injury (B)</div>`)[0];
+                popup_976e66186503d4f857e2da33a9cc5b41.setContent(html_9237debc9eda651fe3e357282e4c20dc);
+            
+        
+
+        circle_marker_aed03c118563cab6bb29354c77a469d0.bindPopup(popup_976e66186503d4f857e2da33a9cc5b41)
+        ;
+
+        
+    
+    
+            circle_marker_aed03c118563cab6bb29354c77a469d0.bindTooltip(
+                `<div>
+                     NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a73fdee0fad51ef912d39d79970aa25 = L.circleMarker(
+                [40.4963734, -74.44909795],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_05910524c30f763a9690d8417f55774d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f7be773ab3579019d68ed2ce91657bd = $(`<div id="html_5f7be773ab3579019d68ed2ce91657bd" style="width: 100.0%; height: 100.0%;">Somerset Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_05910524c30f763a9690d8417f55774d.setContent(html_5f7be773ab3579019d68ed2ce91657bd);
+            
+        
+
+        circle_marker_7a73fdee0fad51ef912d39d79970aa25.bindPopup(popup_05910524c30f763a9690d8417f55774d)
+        ;
+
+        
+    
+    
+            circle_marker_7a73fdee0fad51ef912d39d79970aa25.bindTooltip(
+                `<div>
+                     Somerset Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_078fd70a7bc7994598b3b3eec7c954d9 = L.circleMarker(
+                [40.49742153, -74.4477815],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_8bb767ede61a07ed0e240e3bcc4696d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb63f4ed3c269d628d28ae3ab0f466e2 = $(`<div id="html_eb63f4ed3c269d628d28ae3ab0f466e2" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Possible Injury (C)</div>`)[0];
+                popup_8bb767ede61a07ed0e240e3bcc4696d7.setContent(html_eb63f4ed3c269d628d28ae3ab0f466e2);
+            
+        
+
+        circle_marker_078fd70a7bc7994598b3b3eec7c954d9.bindPopup(popup_8bb767ede61a07ed0e240e3bcc4696d7)
+        ;
+
+        
+    
+    
+            circle_marker_078fd70a7bc7994598b3b3eec7c954d9.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2b72d8e1113b09c33cbccc6bd8cee6d0 = L.circleMarker(
+                [40.48897787, -74.45043089],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_e35caaaf5d861a84e2c84a30686eb488 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30dbaa135e435dab626f230e0cea439f = $(`<div id="html_30dbaa135e435dab626f230e0cea439f" style="width: 100.0%; height: 100.0%;">Handy Street: No Apparent Injury (O)</div>`)[0];
+                popup_e35caaaf5d861a84e2c84a30686eb488.setContent(html_30dbaa135e435dab626f230e0cea439f);
+            
+        
+
+        circle_marker_2b72d8e1113b09c33cbccc6bd8cee6d0.bindPopup(popup_e35caaaf5d861a84e2c84a30686eb488)
+        ;
+
+        
+    
+    
+            circle_marker_2b72d8e1113b09c33cbccc6bd8cee6d0.bindTooltip(
+                `<div>
+                     Handy Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b559e66f5efefcbfd6c872cffb9ec0be = L.circleMarker(
+                [40.48858679, -74.43974243],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_e0f1513a11943d25a4d5b4614731b1dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d548aa4fba5992c0dba040748c69de1d = $(`<div id="html_d548aa4fba5992c0dba040748c69de1d" style="width: 100.0%; height: 100.0%;">ELIJAHS WAY: Suspected Serious Injury (A)</div>`)[0];
+                popup_e0f1513a11943d25a4d5b4614731b1dd.setContent(html_d548aa4fba5992c0dba040748c69de1d);
+            
+        
+
+        circle_marker_b559e66f5efefcbfd6c872cffb9ec0be.bindPopup(popup_e0f1513a11943d25a4d5b4614731b1dd)
+        ;
+
+        
+    
+    
+            circle_marker_b559e66f5efefcbfd6c872cffb9ec0be.bindTooltip(
+                `<div>
+                     ELIJAHS WAY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e81a96bdcf3cff44520a28259b414c15 = L.circleMarker(
+                [40.48489257, -74.45292333],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_dd9e2c9f223a1a728e97050d85b313f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4787c035a5ee6019e1154448fa43062 = $(`<div id="html_c4787c035a5ee6019e1154448fa43062" style="width: 100.0%; height: 100.0%;">Livingston Avenue (MIDDLESEX COUNTY 691): No Apparent Injury (O)</div>`)[0];
+                popup_dd9e2c9f223a1a728e97050d85b313f8.setContent(html_c4787c035a5ee6019e1154448fa43062);
+            
+        
+
+        circle_marker_e81a96bdcf3cff44520a28259b414c15.bindPopup(popup_dd9e2c9f223a1a728e97050d85b313f8)
+        ;
+
+        
+    
+    
+            circle_marker_e81a96bdcf3cff44520a28259b414c15.bindTooltip(
+                `<div>
+                     Livingston Avenue (MIDDLESEX COUNTY 691)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f614bf2db725b0d1825fd40b5c59db8 = L.circleMarker(
+                [40.4815513, -74.44583909],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_1ff5fd7215184a66e70a3ca9a50c1ed3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9c2706e7fa4a9371acbcbdb437809d5 = $(`<div id="html_f9c2706e7fa4a9371acbcbdb437809d5" style="width: 100.0%; height: 100.0%;">Georges Road: Suspected Serious Injury (A)</div>`)[0];
+                popup_1ff5fd7215184a66e70a3ca9a50c1ed3.setContent(html_f9c2706e7fa4a9371acbcbdb437809d5);
+            
+        
+
+        circle_marker_5f614bf2db725b0d1825fd40b5c59db8.bindPopup(popup_1ff5fd7215184a66e70a3ca9a50c1ed3)
+        ;
+
+        
+    
+    
+            circle_marker_5f614bf2db725b0d1825fd40b5c59db8.bindTooltip(
+                `<div>
+                     Georges Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_608d048218914bcfb55079d86f48afb4 = L.circleMarker(
+                [40.47847363, -74.44547615],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_000efa3a43a48ab03fd948453b022f66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b06eea798368cd22ff67ea38a03551f = $(`<div id="html_1b06eea798368cd22ff67ea38a03551f" style="width: 100.0%; height: 100.0%;">So Talmadge Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_000efa3a43a48ab03fd948453b022f66.setContent(html_1b06eea798368cd22ff67ea38a03551f);
+            
+        
+
+        circle_marker_608d048218914bcfb55079d86f48afb4.bindPopup(popup_000efa3a43a48ab03fd948453b022f66)
+        ;
+
+        
+    
+    
+            circle_marker_608d048218914bcfb55079d86f48afb4.bindTooltip(
+                `<div>
+                     So Talmadge Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a73432b152aeb41cf4c0f390d7d8e17 = L.circleMarker(
+                [40.48840507, -74.43880738],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_da902f4c9546ecfe11375433ccc2e29d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9b6ee213320b8233e0a7d9de63609e2 = $(`<div id="html_d9b6ee213320b8233e0a7d9de63609e2" style="width: 100.0%; height: 100.0%;">Paul Robeson Boulevard: Suspected Minor Injury (B)</div>`)[0];
+                popup_da902f4c9546ecfe11375433ccc2e29d.setContent(html_d9b6ee213320b8233e0a7d9de63609e2);
+            
+        
+
+        circle_marker_7a73432b152aeb41cf4c0f390d7d8e17.bindPopup(popup_da902f4c9546ecfe11375433ccc2e29d)
+        ;
+
+        
+    
+    
+            circle_marker_7a73432b152aeb41cf4c0f390d7d8e17.bindTooltip(
+                `<div>
+                     Paul Robeson Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_64ffa143df838b792c0c4f4ac29587e9 = L.circleMarker(
+                [40.49487225, -74.45241318],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_16e11a5f5869aff183f3a4572a2e60a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abf2c0e77b3767282c005e0b0d3009aa = $(`<div id="html_abf2c0e77b3767282c005e0b0d3009aa" style="width: 100.0%; height: 100.0%;">Plum Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_16e11a5f5869aff183f3a4572a2e60a1.setContent(html_abf2c0e77b3767282c005e0b0d3009aa);
+            
+        
+
+        circle_marker_64ffa143df838b792c0c4f4ac29587e9.bindPopup(popup_16e11a5f5869aff183f3a4572a2e60a1)
+        ;
+
+        
+    
+    
+            circle_marker_64ffa143df838b792c0c4f4ac29587e9.bindTooltip(
+                `<div>
+                     Plum Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a437180dbfbed11e17c040143792852 = L.circleMarker(
+                [40.49946118, -74.45298634],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_ed326cb76454c6b18c3b5c5f04bf822a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d442faf2a489e4ee0e3f3409542e6177 = $(`<div id="html_d442faf2a489e4ee0e3f3409542e6177" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): No Apparent Injury (O)</div>`)[0];
+                popup_ed326cb76454c6b18c3b5c5f04bf822a.setContent(html_d442faf2a489e4ee0e3f3409542e6177);
+            
+        
+
+        circle_marker_3a437180dbfbed11e17c040143792852.bindPopup(popup_ed326cb76454c6b18c3b5c5f04bf822a)
+        ;
+
+        
+    
+    
+            circle_marker_3a437180dbfbed11e17c040143792852.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_12c37842dfae8b8cbc8b65f97807b8d0 = L.circleMarker(
+                [40.48609878, -74.45481628],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_448a8ab9a0d3823de8862346c3c05ca6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b05e823de6b8c2795fbc47f64ac5a3bf = $(`<div id="html_b05e823de6b8c2795fbc47f64ac5a3bf" style="width: 100.0%; height: 100.0%;">Powers Street: No Apparent Injury (O)</div>`)[0];
+                popup_448a8ab9a0d3823de8862346c3c05ca6.setContent(html_b05e823de6b8c2795fbc47f64ac5a3bf);
+            
+        
+
+        circle_marker_12c37842dfae8b8cbc8b65f97807b8d0.bindPopup(popup_448a8ab9a0d3823de8862346c3c05ca6)
+        ;
+
+        
+    
+    
+            circle_marker_12c37842dfae8b8cbc8b65f97807b8d0.bindTooltip(
+                `<div>
+                     Powers Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_803afe8a0bb9389c87cf13734ca8ee63 = L.circleMarker(
+                [40.49668008, -74.44658927],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_89f57f5969349f069c50d51bf2a2ba15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88fed1fdbc140e32e50f57c41a4c6f8f = $(`<div id="html_88fed1fdbc140e32e50f57c41a4c6f8f" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Possible Injury (C)</div>`)[0];
+                popup_89f57f5969349f069c50d51bf2a2ba15.setContent(html_88fed1fdbc140e32e50f57c41a4c6f8f);
+            
+        
+
+        circle_marker_803afe8a0bb9389c87cf13734ca8ee63.bindPopup(popup_89f57f5969349f069c50d51bf2a2ba15)
+        ;
+
+        
+    
+    
+            circle_marker_803afe8a0bb9389c87cf13734ca8ee63.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_287c206a8a38eac20f8e7b307b015d13 = L.circleMarker(
+                [40.49506102, -74.44513819],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_85f548fb9a28a0a8937f7a9b8e233cb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15081032e7c781b1ada9fbf3f9bccd3a = $(`<div id="html_15081032e7c781b1ada9fbf3f9bccd3a" style="width: 100.0%; height: 100.0%;">Elm Way: No Apparent Injury (O)</div>`)[0];
+                popup_85f548fb9a28a0a8937f7a9b8e233cb3.setContent(html_15081032e7c781b1ada9fbf3f9bccd3a);
+            
+        
+
+        circle_marker_287c206a8a38eac20f8e7b307b015d13.bindPopup(popup_85f548fb9a28a0a8937f7a9b8e233cb3)
+        ;
+
+        
+    
+    
+            circle_marker_287c206a8a38eac20f8e7b307b015d13.bindTooltip(
+                `<div>
+                     Elm Way
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_293aa3131c7c0501e5fed974c608b72c = L.circleMarker(
+                [40.49884598, -74.45143351],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_16c9457422cc2beca407f294d8f0c77e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb9b0f13cc4ba2a5482bb6407e4050f3 = $(`<div id="html_cb9b0f13cc4ba2a5482bb6407e4050f3" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Suspected Minor Injury (B)</div>`)[0];
+                popup_16c9457422cc2beca407f294d8f0c77e.setContent(html_cb9b0f13cc4ba2a5482bb6407e4050f3);
+            
+        
+
+        circle_marker_293aa3131c7c0501e5fed974c608b72c.bindPopup(popup_16c9457422cc2beca407f294d8f0c77e)
+        ;
+
+        
+    
+    
+            circle_marker_293aa3131c7c0501e5fed974c608b72c.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d743a6e9f207d96e7bde708a2107ecb5 = L.circleMarker(
+                [40.48346939, -74.44904033],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_cd11af732d551f6d3acb2fcb5811f74f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4740f9347b5cccc10c29669a7b813852 = $(`<div id="html_4740f9347b5cccc10c29669a7b813852" style="width: 100.0%; height: 100.0%;">Sanford Avenue: Possible Injury (C)</div>`)[0];
+                popup_cd11af732d551f6d3acb2fcb5811f74f.setContent(html_4740f9347b5cccc10c29669a7b813852);
+            
+        
+
+        circle_marker_d743a6e9f207d96e7bde708a2107ecb5.bindPopup(popup_cd11af732d551f6d3acb2fcb5811f74f)
+        ;
+
+        
+    
+    
+            circle_marker_d743a6e9f207d96e7bde708a2107ecb5.bindTooltip(
+                `<div>
+                     Sanford Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_570bbb28cb40fdddd17aaa08e9a83fea = L.circleMarker(
+                [40.48099683, -74.42870999],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_3e60a62d0a418cad0c1d5da3cdf55947 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99e016323c74fc6c6aaf8d3e3c4fadbd = $(`<div id="html_99e016323c74fc6c6aaf8d3e3c4fadbd" style="width: 100.0%; height: 100.0%;">Ryders Lane (MIDDLESEX COUNTY 617): Possible Injury (C)</div>`)[0];
+                popup_3e60a62d0a418cad0c1d5da3cdf55947.setContent(html_99e016323c74fc6c6aaf8d3e3c4fadbd);
+            
+        
+
+        circle_marker_570bbb28cb40fdddd17aaa08e9a83fea.bindPopup(popup_3e60a62d0a418cad0c1d5da3cdf55947)
+        ;
+
+        
+    
+    
+            circle_marker_570bbb28cb40fdddd17aaa08e9a83fea.bindTooltip(
+                `<div>
+                     Ryders Lane (MIDDLESEX COUNTY 617)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a20feb24cc913483a0e7e5f6456fd461 = L.circleMarker(
+                [40.49898493, -74.45182762],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_44404e062161ab63dd070c197bfc3fe1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2437e6bb371b76ba393f904c63641da = $(`<div id="html_a2437e6bb371b76ba393f904c63641da" style="width: 100.0%; height: 100.0%;">Mine Street: No Apparent Injury (O)</div>`)[0];
+                popup_44404e062161ab63dd070c197bfc3fe1.setContent(html_a2437e6bb371b76ba393f904c63641da);
+            
+        
+
+        circle_marker_a20feb24cc913483a0e7e5f6456fd461.bindPopup(popup_44404e062161ab63dd070c197bfc3fe1)
+        ;
+
+        
+    
+    
+            circle_marker_a20feb24cc913483a0e7e5f6456fd461.bindTooltip(
+                `<div>
+                     Mine Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_31016bb8da15c23dd5d1d4646523e18b = L.circleMarker(
+                [40.50516947, -74.4538547],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_8d2171e2260e03fd1bc0bb1105dd904d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a5a73d6b38ddc2b64f9db7e949a8dcf = $(`<div id="html_8a5a73d6b38ddc2b64f9db7e949a8dcf" style="width: 100.0%; height: 100.0%;">College Avenue: Suspected Minor Injury (B)</div>`)[0];
+                popup_8d2171e2260e03fd1bc0bb1105dd904d.setContent(html_8a5a73d6b38ddc2b64f9db7e949a8dcf);
+            
+        
+
+        circle_marker_31016bb8da15c23dd5d1d4646523e18b.bindPopup(popup_8d2171e2260e03fd1bc0bb1105dd904d)
+        ;
+
+        
+    
+    
+            circle_marker_31016bb8da15c23dd5d1d4646523e18b.bindTooltip(
+                `<div>
+                     College Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ec57c699ace774e25dea3c9c089dce7 = L.circleMarker(
+                [40.48568148, -74.44182043],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_23d7b58d5d1c081c46e1eec83d704d8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b21b6a21083de5b0a7926d06ce8018dc = $(`<div id="html_b21b6a21083de5b0a7926d06ce8018dc" style="width: 100.0%; height: 100.0%;">Paul Robeson Boulevard: Possible Injury (C)</div>`)[0];
+                popup_23d7b58d5d1c081c46e1eec83d704d8b.setContent(html_b21b6a21083de5b0a7926d06ce8018dc);
+            
+        
+
+        circle_marker_8ec57c699ace774e25dea3c9c089dce7.bindPopup(popup_23d7b58d5d1c081c46e1eec83d704d8b)
+        ;
+
+        
+    
+    
+            circle_marker_8ec57c699ace774e25dea3c9c089dce7.bindTooltip(
+                `<div>
+                     Paul Robeson Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d092db19a5304febb7557c60bbffe49b = L.circleMarker(
+                [40.50325209, -74.45555508],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_2769b1bfaea6f9b1bc49b3682dc80950 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_942322931c1e382ed9bcbdcce8d4759e = $(`<div id="html_942322931c1e382ed9bcbdcce8d4759e" style="width: 100.0%; height: 100.0%;">Richardson Street: Possible Injury (C)</div>`)[0];
+                popup_2769b1bfaea6f9b1bc49b3682dc80950.setContent(html_942322931c1e382ed9bcbdcce8d4759e);
+            
+        
+
+        circle_marker_d092db19a5304febb7557c60bbffe49b.bindPopup(popup_2769b1bfaea6f9b1bc49b3682dc80950)
+        ;
+
+        
+    
+    
+            circle_marker_d092db19a5304febb7557c60bbffe49b.bindTooltip(
+                `<div>
+                     Richardson Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7af61dd7adab8c70e2c493b7206e1616 = L.circleMarker(
+                [40.49402848, -74.44651528],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_15e76236f161540d7fc77d49fa9138e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8d660b786b8ed326ce2e53f08ff7bc = $(`<div id="html_5a8d660b786b8ed326ce2e53f08ff7bc" style="width: 100.0%; height: 100.0%;">Kirkpatrick Street: No Apparent Injury (O)</div>`)[0];
+                popup_15e76236f161540d7fc77d49fa9138e5.setContent(html_5a8d660b786b8ed326ce2e53f08ff7bc);
+            
+        
+
+        circle_marker_7af61dd7adab8c70e2c493b7206e1616.bindPopup(popup_15e76236f161540d7fc77d49fa9138e5)
+        ;
+
+        
+    
+    
+            circle_marker_7af61dd7adab8c70e2c493b7206e1616.bindTooltip(
+                `<div>
+                     Kirkpatrick Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_377e1a771431b3b8b226d712674c5cd7 = L.circleMarker(
+                [40.4921334, -74.45371751],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_56b72df71af2cb5ad80083e8d29d2364 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_023395b462cc7bc5b4e7856525394571 = $(`<div id="html_023395b462cc7bc5b4e7856525394571" style="width: 100.0%; height: 100.0%;">NJ 27 (French Street): No Apparent Injury (O)</div>`)[0];
+                popup_56b72df71af2cb5ad80083e8d29d2364.setContent(html_023395b462cc7bc5b4e7856525394571);
+            
+        
+
+        circle_marker_377e1a771431b3b8b226d712674c5cd7.bindPopup(popup_56b72df71af2cb5ad80083e8d29d2364)
+        ;
+
+        
+    
+    
+            circle_marker_377e1a771431b3b8b226d712674c5cd7.bindTooltip(
+                `<div>
+                     NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f5a4da83c3ec93ded434e0be9e4fbd4 = L.circleMarker(
+                [40.48942302, -74.44821328],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_b86fa58bb775be17e9167985e8e7931f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7b11b1b89acff6df2ce68aaae294af9 = $(`<div id="html_b7b11b1b89acff6df2ce68aaae294af9" style="width: 100.0%; height: 100.0%;">Livingston Avenue (MIDDLESEX COUNTY 691): Suspected Minor Injury (B)</div>`)[0];
+                popup_b86fa58bb775be17e9167985e8e7931f.setContent(html_b7b11b1b89acff6df2ce68aaae294af9);
+            
+        
+
+        circle_marker_6f5a4da83c3ec93ded434e0be9e4fbd4.bindPopup(popup_b86fa58bb775be17e9167985e8e7931f)
+        ;
+
+        
+    
+    
+            circle_marker_6f5a4da83c3ec93ded434e0be9e4fbd4.bindTooltip(
+                `<div>
+                     Livingston Avenue (MIDDLESEX COUNTY 691)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_59bf1dd332e0edffa5ed3ce3d72ee3e9 = L.circleMarker(
+                [40.49150541, -74.45144044],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_19d9087be1fb273f4aa3e095116dcf00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb11bca2be13d3a165c58e93c50b6618 = $(`<div id="html_eb11bca2be13d3a165c58e93c50b6618" style="width: 100.0%; height: 100.0%;">Suydam Street: Suspected Serious Injury (A)</div>`)[0];
+                popup_19d9087be1fb273f4aa3e095116dcf00.setContent(html_eb11bca2be13d3a165c58e93c50b6618);
+            
+        
+
+        circle_marker_59bf1dd332e0edffa5ed3ce3d72ee3e9.bindPopup(popup_19d9087be1fb273f4aa3e095116dcf00)
+        ;
+
+        
+    
+    
+            circle_marker_59bf1dd332e0edffa5ed3ce3d72ee3e9.bindTooltip(
+                `<div>
+                     Suydam Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c914aff4b0e137c45f3efcf4ba22a0d = L.circleMarker(
+                [40.49853613, -74.44949504],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_352810d03f897715b2f7e9d390e17e33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebd9db703774c21a664fa7c2d5f4fb9b = $(`<div id="html_ebd9db703774c21a664fa7c2d5f4fb9b" style="width: 100.0%; height: 100.0%;">Rt 514 (Hamilton Street): Suspected Minor Injury (B)</div>`)[0];
+                popup_352810d03f897715b2f7e9d390e17e33.setContent(html_ebd9db703774c21a664fa7c2d5f4fb9b);
+            
+        
+
+        circle_marker_9c914aff4b0e137c45f3efcf4ba22a0d.bindPopup(popup_352810d03f897715b2f7e9d390e17e33)
+        ;
+
+        
+    
+    
+            circle_marker_9c914aff4b0e137c45f3efcf4ba22a0d.bindTooltip(
+                `<div>
+                     Rt 514 (Hamilton Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd1ab4d787fc40fb161fb05badc091b5 = L.circleMarker(
+                [40.48997542, -74.45175922],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_2779f6d5c2aad0d9b993e9d13f07afd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41fa98275fda233e571e4fe69dabefc9 = $(`<div id="html_41fa98275fda233e571e4fe69dabefc9" style="width: 100.0%; height: 100.0%;">Handy Street: No Apparent Injury (O)</div>`)[0];
+                popup_2779f6d5c2aad0d9b993e9d13f07afd6.setContent(html_41fa98275fda233e571e4fe69dabefc9);
+            
+        
+
+        circle_marker_bd1ab4d787fc40fb161fb05badc091b5.bindPopup(popup_2779f6d5c2aad0d9b993e9d13f07afd6)
+        ;
+
+        
+    
+    
+            circle_marker_bd1ab4d787fc40fb161fb05badc091b5.bindTooltip(
+                `<div>
+                     Handy Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_25d6137e82e5e2dd86e148c1db99e2da = L.circleMarker(
+                [40.4774859, -74.46057983],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_b425432d6b465fb0c9a94c2f6888a459 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2091384bae468b81b10ab7939453ecd4 = $(`<div id="html_2091384bae468b81b10ab7939453ecd4" style="width: 100.0%; height: 100.0%;">NJ 26 (Livingston Avenue): Suspected Minor Injury (B)</div>`)[0];
+                popup_b425432d6b465fb0c9a94c2f6888a459.setContent(html_2091384bae468b81b10ab7939453ecd4);
+            
+        
+
+        circle_marker_25d6137e82e5e2dd86e148c1db99e2da.bindPopup(popup_b425432d6b465fb0c9a94c2f6888a459)
+        ;
+
+        
+    
+    
+            circle_marker_25d6137e82e5e2dd86e148c1db99e2da.bindTooltip(
+                `<div>
+                     NJ 26 (Livingston Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8c8f237e5cf7ce581eb8c647e85d4d6 = L.circleMarker(
+                [40.50309262, -74.45434245],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_4129c6ae194485adefe9c9d6b83d9752 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07488c7983b715f302940d3ef658ea43 = $(`<div id="html_07488c7983b715f302940d3ef658ea43" style="width: 100.0%; height: 100.0%;">Senior Street: No Apparent Injury (O)</div>`)[0];
+                popup_4129c6ae194485adefe9c9d6b83d9752.setContent(html_07488c7983b715f302940d3ef658ea43);
+            
+        
+
+        circle_marker_a8c8f237e5cf7ce581eb8c647e85d4d6.bindPopup(popup_4129c6ae194485adefe9c9d6b83d9752)
+        ;
+
+        
+    
+    
+            circle_marker_a8c8f237e5cf7ce581eb8c647e85d4d6.bindTooltip(
+                `<div>
+                     Senior Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b746a1b54330d86b8b9f5db07cbf77ba = L.circleMarker(
+                [40.49006313, -74.4418317],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_f1a73609e48d4546aee26a11cdfc7656 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be74b3d818974b8383a1e7ee0896aad6 = $(`<div id="html_be74b3d818974b8383a1e7ee0896aad6" style="width: 100.0%; height: 100.0%;">Rt 527 (George Street): No Apparent Injury (O)</div>`)[0];
+                popup_f1a73609e48d4546aee26a11cdfc7656.setContent(html_be74b3d818974b8383a1e7ee0896aad6);
+            
+        
+
+        circle_marker_b746a1b54330d86b8b9f5db07cbf77ba.bindPopup(popup_f1a73609e48d4546aee26a11cdfc7656)
+        ;
+
+        
+    
+    
+            circle_marker_b746a1b54330d86b8b9f5db07cbf77ba.bindTooltip(
+                `<div>
+                     Rt 527 (George Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a898149050ce73460d46bbb32e7e98d = L.circleMarker(
+                [40.49572399, -74.45078171],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_14bf4769bf7cf7f12c82e92ba733a73b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be56bf17d795540858e5362c85bd4818 = $(`<div id="html_be56bf17d795540858e5362c85bd4818" style="width: 100.0%; height: 100.0%;">Somerset Street: No Apparent Injury (O)</div>`)[0];
+                popup_14bf4769bf7cf7f12c82e92ba733a73b.setContent(html_be56bf17d795540858e5362c85bd4818);
+            
+        
+
+        circle_marker_6a898149050ce73460d46bbb32e7e98d.bindPopup(popup_14bf4769bf7cf7f12c82e92ba733a73b)
+        ;
+
+        
+    
+    
+            circle_marker_6a898149050ce73460d46bbb32e7e98d.bindTooltip(
+                `<div>
+                     Somerset Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6e73fad32e3f4fd7c1cea6a25ffcbb14 = L.circleMarker(
+                [40.48844008, -74.4465047],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_eb3c4bdf6541a1347eb7b85337b4638c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bb403eeba04b593dd1bc7429a0b5675 = $(`<div id="html_4bb403eeba04b593dd1bc7429a0b5675" style="width: 100.0%; height: 100.0%;">LEE AVENUE: No Apparent Injury (O)</div>`)[0];
+                popup_eb3c4bdf6541a1347eb7b85337b4638c.setContent(html_4bb403eeba04b593dd1bc7429a0b5675);
+            
+        
+
+        circle_marker_6e73fad32e3f4fd7c1cea6a25ffcbb14.bindPopup(popup_eb3c4bdf6541a1347eb7b85337b4638c)
+        ;
+
+        
+    
+    
+            circle_marker_6e73fad32e3f4fd7c1cea6a25ffcbb14.bindTooltip(
+                `<div>
+                     LEE AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75b7ab71db75fbc798f4c1464390573e = L.circleMarker(
+                [40.49056742, -74.44997766],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_19dabe04f54df12d8db713798104ea2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72d27d4bbe1aa1ced15eec077ac2ee5c = $(`<div id="html_72d27d4bbe1aa1ced15eec077ac2ee5c" style="width: 100.0%; height: 100.0%;">Joyce Kilmer Avenue: Fatal Injury (K)</div>`)[0];
+                popup_19dabe04f54df12d8db713798104ea2b.setContent(html_72d27d4bbe1aa1ced15eec077ac2ee5c);
+            
+        
+
+        circle_marker_75b7ab71db75fbc798f4c1464390573e.bindPopup(popup_19dabe04f54df12d8db713798104ea2b)
+        ;
+
+        
+    
+    
+            circle_marker_75b7ab71db75fbc798f4c1464390573e.bindTooltip(
+                `<div>
+                     Joyce Kilmer Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d5e440e6f3961bb21bf6c6c661e17eb = L.circleMarker(
+                [40.49381029, -74.45445951],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_81c64639ba05f3abb3d2246ea7938981 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82e251bb2848051f82058d37125541df = $(`<div id="html_82e251bb2848051f82058d37125541df" style="width: 100.0%; height: 100.0%;">Louis Street: Suspected Serious Injury (A)</div>`)[0];
+                popup_81c64639ba05f3abb3d2246ea7938981.setContent(html_82e251bb2848051f82058d37125541df);
+            
+        
+
+        circle_marker_5d5e440e6f3961bb21bf6c6c661e17eb.bindPopup(popup_81c64639ba05f3abb3d2246ea7938981)
+        ;
+
+        
+    
+    
+            circle_marker_5d5e440e6f3961bb21bf6c6c661e17eb.bindTooltip(
+                `<div>
+                     Louis Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5bbc3fdbb0bb89014880036634be451a = L.circleMarker(
+                [40.49825477, -74.45014909],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_9e799ed9e33ebffcbc272f3aed4b70ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fddb9b23fb33d8adc82cc32e30ba939 = $(`<div id="html_1fddb9b23fb33d8adc82cc32e30ba939" style="width: 100.0%; height: 100.0%;">Rt 514 (Hamilton Street): Possible Injury (C)</div>`)[0];
+                popup_9e799ed9e33ebffcbc272f3aed4b70ee.setContent(html_1fddb9b23fb33d8adc82cc32e30ba939);
+            
+        
+
+        circle_marker_5bbc3fdbb0bb89014880036634be451a.bindPopup(popup_9e799ed9e33ebffcbc272f3aed4b70ee)
+        ;
+
+        
+    
+    
+            circle_marker_5bbc3fdbb0bb89014880036634be451a.bindTooltip(
+                `<div>
+                     Rt 514 (Hamilton Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_04636d8e5b3c3bd14a001a41929625f4 = L.circleMarker(
+                [40.48952539, -74.44141704],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_52917ae1dfe538351691ff2cba13aaec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_681c49792b6fa37609d506792a7b5942 = $(`<div id="html_681c49792b6fa37609d506792a7b5942" style="width: 100.0%; height: 100.0%;">Hassart Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_52917ae1dfe538351691ff2cba13aaec.setContent(html_681c49792b6fa37609d506792a7b5942);
+            
+        
+
+        circle_marker_04636d8e5b3c3bd14a001a41929625f4.bindPopup(popup_52917ae1dfe538351691ff2cba13aaec)
+        ;
+
+        
+    
+    
+            circle_marker_04636d8e5b3c3bd14a001a41929625f4.bindTooltip(
+                `<div>
+                     Hassart Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e0d98956883a0877eab1c27ad87b4ed = L.circleMarker(
+                [40.4872202, -74.43995191],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_07a518f4065a3c5d2c388f40c09710fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1078858bd6befb11fc3a1f148c1035ac = $(`<div id="html_1078858bd6befb11fc3a1f148c1035ac" style="width: 100.0%; height: 100.0%;">Rt 527 (George Street): Suspected Serious Injury (A)</div>`)[0];
+                popup_07a518f4065a3c5d2c388f40c09710fa.setContent(html_1078858bd6befb11fc3a1f148c1035ac);
+            
+        
+
+        circle_marker_7e0d98956883a0877eab1c27ad87b4ed.bindPopup(popup_07a518f4065a3c5d2c388f40c09710fa)
+        ;
+
+        
+    
+    
+            circle_marker_7e0d98956883a0877eab1c27ad87b4ed.bindTooltip(
+                `<div>
+                     Rt 527 (George Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ae5be3ab6c73c746e22b3fd73e6d2acf = L.circleMarker(
+                [40.4838461, -74.46364786],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_971871af08d293b339f70dc9dd532c41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd5d9b5818cecf0779cb95ea47991ca2 = $(`<div id="html_fd5d9b5818cecf0779cb95ea47991ca2" style="width: 100.0%; height: 100.0%;">Jersey Avenue (MIDDLESEX COUNTY 693): No Apparent Injury (O)</div>`)[0];
+                popup_971871af08d293b339f70dc9dd532c41.setContent(html_fd5d9b5818cecf0779cb95ea47991ca2);
+            
+        
+
+        circle_marker_ae5be3ab6c73c746e22b3fd73e6d2acf.bindPopup(popup_971871af08d293b339f70dc9dd532c41)
+        ;
+
+        
+    
+    
+            circle_marker_ae5be3ab6c73c746e22b3fd73e6d2acf.bindTooltip(
+                `<div>
+                     Jersey Avenue (MIDDLESEX COUNTY 693)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_eaf68f6640cf9066dd53d65edad5f0a3 = L.circleMarker(
+                [40.48589273, -74.44536827],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_896f2264f0616ee4a3c9248d9589b7a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e5ce9530136de6595014e6b887d5115 = $(`<div id="html_2e5ce9530136de6595014e6b887d5115" style="width: 100.0%; height: 100.0%;">Handy Street: Suspected Serious Injury (A)</div>`)[0];
+                popup_896f2264f0616ee4a3c9248d9589b7a6.setContent(html_2e5ce9530136de6595014e6b887d5115);
+            
+        
+
+        circle_marker_eaf68f6640cf9066dd53d65edad5f0a3.bindPopup(popup_896f2264f0616ee4a3c9248d9589b7a6)
+        ;
+
+        
+    
+    
+            circle_marker_eaf68f6640cf9066dd53d65edad5f0a3.bindTooltip(
+                `<div>
+                     Handy Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3db2fb4ff97ebd84b353f47cbd34954 = L.circleMarker(
+                [40.49948284, -74.45373109],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_faa7eb82ebd9070f25720383ea495e72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc2b34bd85bf82b7e21d9e1acadac274 = $(`<div id="html_cc2b34bd85bf82b7e21d9e1acadac274" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Possible Injury (C)</div>`)[0];
+                popup_faa7eb82ebd9070f25720383ea495e72.setContent(html_cc2b34bd85bf82b7e21d9e1acadac274);
+            
+        
+
+        circle_marker_c3db2fb4ff97ebd84b353f47cbd34954.bindPopup(popup_faa7eb82ebd9070f25720383ea495e72)
+        ;
+
+        
+    
+    
+            circle_marker_c3db2fb4ff97ebd84b353f47cbd34954.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9a39ea5805944de5475fb3b66cd8f685 = L.circleMarker(
+                [40.50090214, -74.45659835],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_f5c57e67aa291cfb8a586bf01f782917 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9249f1d57fa78ace705831017a5e02b = $(`<div id="html_f9249f1d57fa78ace705831017a5e02b" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Possible Injury (C)</div>`)[0];
+                popup_f5c57e67aa291cfb8a586bf01f782917.setContent(html_f9249f1d57fa78ace705831017a5e02b);
+            
+        
+
+        circle_marker_9a39ea5805944de5475fb3b66cd8f685.bindPopup(popup_f5c57e67aa291cfb8a586bf01f782917)
+        ;
+
+        
+    
+    
+            circle_marker_9a39ea5805944de5475fb3b66cd8f685.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a98348692540da3a452cd48787474963 = L.circleMarker(
+                [40.49989, -74.44845997],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_0803cac00e95f492003ed2f7303288d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_255f32292b622650b75040c0ed6ac8df = $(`<div id="html_255f32292b622650b75040c0ed6ac8df" style="width: 100.0%; height: 100.0%;">College Avenue: Suspected Minor Injury (B)</div>`)[0];
+                popup_0803cac00e95f492003ed2f7303288d8.setContent(html_255f32292b622650b75040c0ed6ac8df);
+            
+        
+
+        circle_marker_a98348692540da3a452cd48787474963.bindPopup(popup_0803cac00e95f492003ed2f7303288d8)
+        ;
+
+        
+    
+    
+            circle_marker_a98348692540da3a452cd48787474963.bindTooltip(
+                `<div>
+                     College Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0badc97232da0f573a904f9a49db5b2a = L.circleMarker(
+                [40.49168234, -74.45463868],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_0dffc2cd49e8ec3ce0a83eb7b614aaf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ce8029265d85c2e7ed2edf2fd188aa0 = $(`<div id="html_2ce8029265d85c2e7ed2edf2fd188aa0" style="width: 100.0%; height: 100.0%;">NJ 27 (French Street): Possible Injury (C)</div>`)[0];
+                popup_0dffc2cd49e8ec3ce0a83eb7b614aaf5.setContent(html_2ce8029265d85c2e7ed2edf2fd188aa0);
+            
+        
+
+        circle_marker_0badc97232da0f573a904f9a49db5b2a.bindPopup(popup_0dffc2cd49e8ec3ce0a83eb7b614aaf5)
+        ;
+
+        
+    
+    
+            circle_marker_0badc97232da0f573a904f9a49db5b2a.bindTooltip(
+                `<div>
+                     NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6b9bebf1c51c044f1384a3ee4b062db7 = L.circleMarker(
+                [40.49118016, -74.44627816],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_a73907ecc3889613e263c7b78d387b7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4d1e4b6999ab4ae547a9d9d9c1c4492 = $(`<div id="html_d4d1e4b6999ab4ae547a9d9d9c1c4492" style="width: 100.0%; height: 100.0%;">Livingston Avenue (MIDDLESEX COUNTY 691): No Apparent Injury (O)</div>`)[0];
+                popup_a73907ecc3889613e263c7b78d387b7e.setContent(html_d4d1e4b6999ab4ae547a9d9d9c1c4492);
+            
+        
+
+        circle_marker_6b9bebf1c51c044f1384a3ee4b062db7.bindPopup(popup_a73907ecc3889613e263c7b78d387b7e)
+        ;
+
+        
+    
+    
+            circle_marker_6b9bebf1c51c044f1384a3ee4b062db7.bindTooltip(
+                `<div>
+                     Livingston Avenue (MIDDLESEX COUNTY 691)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c4101c8dac22cb98fba96ce840a0f45 = L.circleMarker(
+                [40.4923513, -74.44349922],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_42fd941dc01cee799eb1a8a14bb0b75e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_387309e08d0308eaea39bf8eec64c122 = $(`<div id="html_387309e08d0308eaea39bf8eec64c122" style="width: 100.0%; height: 100.0%;">New Street: No Apparent Injury (O)</div>`)[0];
+                popup_42fd941dc01cee799eb1a8a14bb0b75e.setContent(html_387309e08d0308eaea39bf8eec64c122);
+            
+        
+
+        circle_marker_9c4101c8dac22cb98fba96ce840a0f45.bindPopup(popup_42fd941dc01cee799eb1a8a14bb0b75e)
+        ;
+
+        
+    
+    
+            circle_marker_9c4101c8dac22cb98fba96ce840a0f45.bindTooltip(
+                `<div>
+                     New Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_86fcc7f75373690f51442cdc744138ea = L.circleMarker(
+                [40.48489209, -74.45141995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_9d831f6ba14a5988724d7e4fc14294e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe5a11bd292c249037306c29696733a6 = $(`<div id="html_fe5a11bd292c249037306c29696733a6" style="width: 100.0%; height: 100.0%;">Sanford Avenue: No Apparent Injury (O)</div>`)[0];
+                popup_9d831f6ba14a5988724d7e4fc14294e0.setContent(html_fe5a11bd292c249037306c29696733a6);
+            
+        
+
+        circle_marker_86fcc7f75373690f51442cdc744138ea.bindPopup(popup_9d831f6ba14a5988724d7e4fc14294e0)
+        ;
+
+        
+    
+    
+            circle_marker_86fcc7f75373690f51442cdc744138ea.bindTooltip(
+                `<div>
+                     Sanford Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_abdfb6cc352b3dd0f6d0964fa5fc1634 = L.circleMarker(
+                [40.50242224, -74.45377122],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_2ec5062242c6d5ba152dbb6dca66df80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab6002a0dc5ca7d82ee20d83a2e1a987 = $(`<div id="html_ab6002a0dc5ca7d82ee20d83a2e1a987" style="width: 100.0%; height: 100.0%;">Ray Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_2ec5062242c6d5ba152dbb6dca66df80.setContent(html_ab6002a0dc5ca7d82ee20d83a2e1a987);
+            
+        
+
+        circle_marker_abdfb6cc352b3dd0f6d0964fa5fc1634.bindPopup(popup_2ec5062242c6d5ba152dbb6dca66df80)
+        ;
+
+        
+    
+    
+            circle_marker_abdfb6cc352b3dd0f6d0964fa5fc1634.bindTooltip(
+                `<div>
+                     Ray Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c2d3358fc2ba58ffe2a944953db5fc7 = L.circleMarker(
+                [40.49713061, -74.4482701],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_d7c515b275709749ea24a26ca5689d3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5fb099472b062559966be9eadb08a3f = $(`<div id="html_e5fb099472b062559966be9eadb08a3f" style="width: 100.0%; height: 100.0%;">Somerset Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_d7c515b275709749ea24a26ca5689d3f.setContent(html_e5fb099472b062559966be9eadb08a3f);
+            
+        
+
+        circle_marker_1c2d3358fc2ba58ffe2a944953db5fc7.bindPopup(popup_d7c515b275709749ea24a26ca5689d3f)
+        ;
+
+        
+    
+    
+            circle_marker_1c2d3358fc2ba58ffe2a944953db5fc7.bindTooltip(
+                `<div>
+                     Somerset Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fdfff252652f9c5c4fef130bd0daf22c = L.circleMarker(
+                [40.50006375, -74.45460462],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_e5f3e9bfb0869eb5363044f0f873c156 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c41ce25550747352ca857913fa398d3 = $(`<div id="html_6c41ce25550747352ca857913fa398d3" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Possible Injury (C)</div>`)[0];
+                popup_e5f3e9bfb0869eb5363044f0f873c156.setContent(html_6c41ce25550747352ca857913fa398d3);
+            
+        
+
+        circle_marker_fdfff252652f9c5c4fef130bd0daf22c.bindPopup(popup_e5f3e9bfb0869eb5363044f0f873c156)
+        ;
+
+        
+    
+    
+            circle_marker_fdfff252652f9c5c4fef130bd0daf22c.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b7078c59631a9d8d8c6ff27481facbd5 = L.circleMarker(
+                [40.48206257, -74.44035789],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_7f8f4cd879f8d40cb6bb976a1945d15f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02e5f9d4435e07c35368d9dcf0e3a6f5 = $(`<div id="html_02e5f9d4435e07c35368d9dcf0e3a6f5" style="width: 100.0%; height: 100.0%;">Nichol Avenue: Suspected Minor Injury (B)</div>`)[0];
+                popup_7f8f4cd879f8d40cb6bb976a1945d15f.setContent(html_02e5f9d4435e07c35368d9dcf0e3a6f5);
+            
+        
+
+        circle_marker_b7078c59631a9d8d8c6ff27481facbd5.bindPopup(popup_7f8f4cd879f8d40cb6bb976a1945d15f)
+        ;
+
+        
+    
+    
+            circle_marker_b7078c59631a9d8d8c6ff27481facbd5.bindTooltip(
+                `<div>
+                     Nichol Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dafec9e743695254fc00c718b1a61b6b = L.circleMarker(
+                [40.48772462, -74.45302246],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_f49f880879096ea1a5ba7bf4c7405d9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_990760e4480d576b8551b84c59b4a98e = $(`<div id="html_990760e4480d576b8551b84c59b4a98e" style="width: 100.0%; height: 100.0%;">Comstock Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_f49f880879096ea1a5ba7bf4c7405d9a.setContent(html_990760e4480d576b8551b84c59b4a98e);
+            
+        
+
+        circle_marker_dafec9e743695254fc00c718b1a61b6b.bindPopup(popup_f49f880879096ea1a5ba7bf4c7405d9a)
+        ;
+
+        
+    
+    
+            circle_marker_dafec9e743695254fc00c718b1a61b6b.bindTooltip(
+                `<div>
+                     Comstock Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a1efc19d02aae9f4a74e2ed48ebab675 = L.circleMarker(
+                [40.50369241, -74.4485283],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_0ee40436e1cc997bf6d78e4e12974c57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f61fb6494d20eb71f7c1b0166dde34d = $(`<div id="html_9f61fb6494d20eb71f7c1b0166dde34d" style="width: 100.0%; height: 100.0%;">George Street (MIDDLESEX COUNTY 672): Suspected Minor Injury (B)</div>`)[0];
+                popup_0ee40436e1cc997bf6d78e4e12974c57.setContent(html_9f61fb6494d20eb71f7c1b0166dde34d);
+            
+        
+
+        circle_marker_a1efc19d02aae9f4a74e2ed48ebab675.bindPopup(popup_0ee40436e1cc997bf6d78e4e12974c57)
+        ;
+
+        
+    
+    
+            circle_marker_a1efc19d02aae9f4a74e2ed48ebab675.bindTooltip(
+                `<div>
+                     George Street (MIDDLESEX COUNTY 672)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_393951088cae02cde925d935a2f12ba5 = L.circleMarker(
+                [40.49912772, -74.44755998],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_6e9b5ddd1265d8ebe2c20ab33e5bbd3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0b79acacc3052104c1993ca3d971ee = $(`<div id="html_cb0b79acacc3052104c1993ca3d971ee" style="width: 100.0%; height: 100.0%;">Rt 514 (Hamilton Street): Suspected Minor Injury (B)</div>`)[0];
+                popup_6e9b5ddd1265d8ebe2c20ab33e5bbd3f.setContent(html_cb0b79acacc3052104c1993ca3d971ee);
+            
+        
+
+        circle_marker_393951088cae02cde925d935a2f12ba5.bindPopup(popup_6e9b5ddd1265d8ebe2c20ab33e5bbd3f)
+        ;
+
+        
+    
+    
+            circle_marker_393951088cae02cde925d935a2f12ba5.bindTooltip(
+                `<div>
+                     Rt 514 (Hamilton Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa3ffa9b1a8cf03acf5c7a39587c8fcb = L.circleMarker(
+                [40.50011361, -74.45465978],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_504a272c3cbfe11ec0dfd256efebff7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a699cf009945c6f1a856fa3986aabd6d = $(`<div id="html_a699cf009945c6f1a856fa3986aabd6d" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): No Apparent Injury (O)</div>`)[0];
+                popup_504a272c3cbfe11ec0dfd256efebff7e.setContent(html_a699cf009945c6f1a856fa3986aabd6d);
+            
+        
+
+        circle_marker_aa3ffa9b1a8cf03acf5c7a39587c8fcb.bindPopup(popup_504a272c3cbfe11ec0dfd256efebff7e)
+        ;
+
+        
+    
+    
+            circle_marker_aa3ffa9b1a8cf03acf5c7a39587c8fcb.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_25a89a0df433b5320ede26065242e51f = L.circleMarker(
+                [40.48719904, -74.4399665],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_37d321707ab3f9d0dfce7d4432d70cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59db53a7e5775f263ecd598d9e311021 = $(`<div id="html_59db53a7e5775f263ecd598d9e311021" style="width: 100.0%; height: 100.0%;">Paul Robeson Boulevard: Suspected Serious Injury (A)</div>`)[0];
+                popup_37d321707ab3f9d0dfce7d4432d70cab.setContent(html_59db53a7e5775f263ecd598d9e311021);
+            
+        
+
+        circle_marker_25a89a0df433b5320ede26065242e51f.bindPopup(popup_37d321707ab3f9d0dfce7d4432d70cab)
+        ;
+
+        
+    
+    
+            circle_marker_25a89a0df433b5320ede26065242e51f.bindTooltip(
+                `<div>
+                     Paul Robeson Boulevard
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a74077cfee2695196b44d5fb7d2a81d = L.circleMarker(
+                [40.49870674, -74.45724522],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_d30565a8e546212a59fb7ba3d39cf01b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db308da74e585968cd9d96496aff10ae = $(`<div id="html_db308da74e585968cd9d96496aff10ae" style="width: 100.0%; height: 100.0%;">Duke Street: Suspected Minor Injury (B)</div>`)[0];
+                popup_d30565a8e546212a59fb7ba3d39cf01b.setContent(html_db308da74e585968cd9d96496aff10ae);
+            
+        
+
+        circle_marker_5a74077cfee2695196b44d5fb7d2a81d.bindPopup(popup_d30565a8e546212a59fb7ba3d39cf01b)
+        ;
+
+        
+    
+    
+            circle_marker_5a74077cfee2695196b44d5fb7d2a81d.bindTooltip(
+                `<div>
+                     Duke Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_349f876218d60fe5d3003da0d829971a = L.circleMarker(
+                [40.50300095, -74.45442604],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_8a2516c5d13042a473cb253668675e97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f66001c58f1165a57f27a05c9ca1ca3d = $(`<div id="html_f66001c58f1165a57f27a05c9ca1ca3d" style="width: 100.0%; height: 100.0%;">Sicard Street: No Apparent Injury (O)</div>`)[0];
+                popup_8a2516c5d13042a473cb253668675e97.setContent(html_f66001c58f1165a57f27a05c9ca1ca3d);
+            
+        
+
+        circle_marker_349f876218d60fe5d3003da0d829971a.bindPopup(popup_8a2516c5d13042a473cb253668675e97)
+        ;
+
+        
+    
+    
+            circle_marker_349f876218d60fe5d3003da0d829971a.bindTooltip(
+                `<div>
+                     Sicard Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f969adb8585a58d263cf7b12d9fd9be6 = L.circleMarker(
+                [40.50150619, -74.44781479],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_72187b6640b617f50896a1ed43d988e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82d40b68eb7ac4b90d15ade643a317ca = $(`<div id="html_82d40b68eb7ac4b90d15ade643a317ca" style="width: 100.0%; height: 100.0%;">Seminary Place: No Apparent Injury (O)</div>`)[0];
+                popup_72187b6640b617f50896a1ed43d988e5.setContent(html_82d40b68eb7ac4b90d15ade643a317ca);
+            
+        
+
+        circle_marker_f969adb8585a58d263cf7b12d9fd9be6.bindPopup(popup_72187b6640b617f50896a1ed43d988e5)
+        ;
+
+        
+    
+    
+            circle_marker_f969adb8585a58d263cf7b12d9fd9be6.bindTooltip(
+                `<div>
+                     Seminary Place
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd465c9c05ca2282e0584a2ec55888e3 = L.circleMarker(
+                [40.50348404, -74.44809868],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_60ff876448c0edc51808f4422cd89d3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36deaa531c128118956316fab21fc9d2 = $(`<div id="html_36deaa531c128118956316fab21fc9d2" style="width: 100.0%; height: 100.0%;">George Street (MIDDLESEX COUNTY 672): Suspected Minor Injury (B)</div>`)[0];
+                popup_60ff876448c0edc51808f4422cd89d3c.setContent(html_36deaa531c128118956316fab21fc9d2);
+            
+        
+
+        circle_marker_bd465c9c05ca2282e0584a2ec55888e3.bindPopup(popup_60ff876448c0edc51808f4422cd89d3c)
+        ;
+
+        
+    
+    
+            circle_marker_bd465c9c05ca2282e0584a2ec55888e3.bindTooltip(
+                `<div>
+                     George Street (MIDDLESEX COUNTY 672)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_992e9a84eff41dc98ae4c2e85e44c679 = L.circleMarker(
+                [40.49443012, -74.44386249],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_b3ed08634f4c64271e83f6e00a108e10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57870c43d55b655c1e87e3bcc4cdba4b = $(`<div id="html_57870c43d55b655c1e87e3bcc4cdba4b" style="width: 100.0%; height: 100.0%;">Bayard Street: Possible Injury (C)</div>`)[0];
+                popup_b3ed08634f4c64271e83f6e00a108e10.setContent(html_57870c43d55b655c1e87e3bcc4cdba4b);
+            
+        
+
+        circle_marker_992e9a84eff41dc98ae4c2e85e44c679.bindPopup(popup_b3ed08634f4c64271e83f6e00a108e10)
+        ;
+
+        
+    
+    
+            circle_marker_992e9a84eff41dc98ae4c2e85e44c679.bindTooltip(
+                `<div>
+                     Bayard Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fce54a35e9d2f53c9fcc66049890de0 = L.circleMarker(
+                [40.49069449, -74.45776522],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_39fcdf7dff3cfe7c5025d2d56326ed19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21fb04fed5a3496eff14beffe88a32f7 = $(`<div id="html_21fb04fed5a3496eff14beffe88a32f7" style="width: 100.0%; height: 100.0%;">NJ 27 (French Street): Possible Injury (C)</div>`)[0];
+                popup_39fcdf7dff3cfe7c5025d2d56326ed19.setContent(html_21fb04fed5a3496eff14beffe88a32f7);
+            
+        
+
+        circle_marker_1fce54a35e9d2f53c9fcc66049890de0.bindPopup(popup_39fcdf7dff3cfe7c5025d2d56326ed19)
+        ;
+
+        
+    
+    
+            circle_marker_1fce54a35e9d2f53c9fcc66049890de0.bindTooltip(
+                `<div>
+                     NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a46c2d9c03bbc5fa23eaa9f163dcddd5 = L.circleMarker(
+                [40.49204893, -74.4540241],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_3c4333b32abc53f63c1a89de643f9a8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f21c7e29388a0c40f13fbaa7fe5988e6 = $(`<div id="html_f21c7e29388a0c40f13fbaa7fe5988e6" style="width: 100.0%; height: 100.0%;">NJ 27 (French Street): Possible Injury (C)</div>`)[0];
+                popup_3c4333b32abc53f63c1a89de643f9a8c.setContent(html_f21c7e29388a0c40f13fbaa7fe5988e6);
+            
+        
+
+        circle_marker_a46c2d9c03bbc5fa23eaa9f163dcddd5.bindPopup(popup_3c4333b32abc53f63c1a89de643f9a8c)
+        ;
+
+        
+    
+    
+            circle_marker_a46c2d9c03bbc5fa23eaa9f163dcddd5.bindTooltip(
+                `<div>
+                     NJ 27 (French Street)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a158454a79093dda7342bdf995a364a8 = L.circleMarker(
+                [40.49705008, -74.44433076],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_5a5be7676c6060e959ac51e275b44706 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbaa22ac5bd7e78622b76447806cf784 = $(`<div id="html_fbaa22ac5bd7e78622b76447806cf784" style="width: 100.0%; height: 100.0%;">George Street (MIDDLESEX COUNTY 672): Suspected Minor Injury (B)</div>`)[0];
+                popup_5a5be7676c6060e959ac51e275b44706.setContent(html_fbaa22ac5bd7e78622b76447806cf784);
+            
+        
+
+        circle_marker_a158454a79093dda7342bdf995a364a8.bindPopup(popup_5a5be7676c6060e959ac51e275b44706)
+        ;
+
+        
+    
+    
+            circle_marker_a158454a79093dda7342bdf995a364a8.bindTooltip(
+                `<div>
+                     George Street (MIDDLESEX COUNTY 672)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_212ca0ecbfca67653bcc2e2be9a58eee = L.circleMarker(
+                [40.49797583, -74.44919783],
+                {"bubblingMouseEvents": true, "color": "Orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_2b149676c605496e338e7e653cf288b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c5f52739537753342a154b950a22c3d = $(`<div id="html_2c5f52739537753342a154b950a22c3d" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): Suspected Minor Injury (B)</div>`)[0];
+                popup_2b149676c605496e338e7e653cf288b0.setContent(html_2c5f52739537753342a154b950a22c3d);
+            
+        
+
+        circle_marker_212ca0ecbfca67653bcc2e2be9a58eee.bindPopup(popup_2b149676c605496e338e7e653cf288b0)
+        ;
+
+        
+    
+    
+            circle_marker_212ca0ecbfca67653bcc2e2be9a58eee.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7e29495306df46fe4ba16c02e1c7c00 = L.circleMarker(
+                [40.49270881, -74.4462752],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_b3dc8ada62cb1533277598ec990da330 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80c8c9a3c67f2ab6c74c279cdca3d795 = $(`<div id="html_80c8c9a3c67f2ab6c74c279cdca3d795" style="width: 100.0%; height: 100.0%;">Kirkpatrick Street: No Apparent Injury (O)</div>`)[0];
+                popup_b3dc8ada62cb1533277598ec990da330.setContent(html_80c8c9a3c67f2ab6c74c279cdca3d795);
+            
+        
+
+        circle_marker_f7e29495306df46fe4ba16c02e1c7c00.bindPopup(popup_b3dc8ada62cb1533277598ec990da330)
+        ;
+
+        
+    
+    
+            circle_marker_f7e29495306df46fe4ba16c02e1c7c00.bindTooltip(
+                `<div>
+                     Kirkpatrick Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f137993b580a3ecf78b00a73c19299c2 = L.circleMarker(
+                [40.4875504, -74.44484326],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_f2ae933b71be3adad5514312008dc484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79c6263e151bd7cf089eecdbf7ec8a96 = $(`<div id="html_79c6263e151bd7cf089eecdbf7ec8a96" style="width: 100.0%; height: 100.0%;">Remsen Avenue: Possible Injury (C)</div>`)[0];
+                popup_f2ae933b71be3adad5514312008dc484.setContent(html_79c6263e151bd7cf089eecdbf7ec8a96);
+            
+        
+
+        circle_marker_f137993b580a3ecf78b00a73c19299c2.bindPopup(popup_f2ae933b71be3adad5514312008dc484)
+        ;
+
+        
+    
+    
+            circle_marker_f137993b580a3ecf78b00a73c19299c2.bindTooltip(
+                `<div>
+                     Remsen Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e38a37e81980e6430924546a291f344e = L.circleMarker(
+                [40.49833941, -74.44477182],
+                {"bubblingMouseEvents": true, "color": "Yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_df976b47f7ffe8e7edd3d974e40ab18e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67fdffba652e4cb3494464b5f79def0f = $(`<div id="html_67fdffba652e4cb3494464b5f79def0f" style="width: 100.0%; height: 100.0%;">Somerset Street: Possible Injury (C)</div>`)[0];
+                popup_df976b47f7ffe8e7edd3d974e40ab18e.setContent(html_67fdffba652e4cb3494464b5f79def0f);
+            
+        
+
+        circle_marker_e38a37e81980e6430924546a291f344e.bindPopup(popup_df976b47f7ffe8e7edd3d974e40ab18e)
+        ;
+
+        
+    
+    
+            circle_marker_e38a37e81980e6430924546a291f344e.bindTooltip(
+                `<div>
+                     Somerset Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01d2737ffcca1ce307f21e78c8e2bf7d = L.circleMarker(
+                [40.47570591, -74.46253123],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_096016a96326a56341bf98646fa37735 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c84fa142814722989b6ba1859fec2d73 = $(`<div id="html_c84fa142814722989b6ba1859fec2d73" style="width: 100.0%; height: 100.0%;">NJ 26 (Livingston Avenue): Suspected Serious Injury (A)</div>`)[0];
+                popup_096016a96326a56341bf98646fa37735.setContent(html_c84fa142814722989b6ba1859fec2d73);
+            
+        
+
+        circle_marker_01d2737ffcca1ce307f21e78c8e2bf7d.bindPopup(popup_096016a96326a56341bf98646fa37735)
+        ;
+
+        
+    
+    
+            circle_marker_01d2737ffcca1ce307f21e78c8e2bf7d.bindTooltip(
+                `<div>
+                     NJ 26 (Livingston Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf4764adc415cd53a781bbaa8e1f55ba = L.circleMarker(
+                [40.48616528, -74.44637698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_b88d78027e5779462b0f2ee1943b6933 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2fb28505dc06f01f9137f45659bf898 = $(`<div id="html_b2fb28505dc06f01f9137f45659bf898" style="width: 100.0%; height: 100.0%;">Remsen Avenue: No Apparent Injury (O)</div>`)[0];
+                popup_b88d78027e5779462b0f2ee1943b6933.setContent(html_b2fb28505dc06f01f9137f45659bf898);
+            
+        
+
+        circle_marker_bf4764adc415cd53a781bbaa8e1f55ba.bindPopup(popup_b88d78027e5779462b0f2ee1943b6933)
+        ;
+
+        
+    
+    
+            circle_marker_bf4764adc415cd53a781bbaa8e1f55ba.bindTooltip(
+                `<div>
+                     Remsen Avenue
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c24b6b9ec5072c8ee35896ad3c9c7345 = L.circleMarker(
+                [40.49264824, -74.44646859],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_13cd07a88ab96855395221a76226dd8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f30805d1a34260992ee036ef9350cdd = $(`<div id="html_2f30805d1a34260992ee036ef9350cdd" style="width: 100.0%; height: 100.0%;">New Street: No Apparent Injury (O)</div>`)[0];
+                popup_13cd07a88ab96855395221a76226dd8e.setContent(html_2f30805d1a34260992ee036ef9350cdd);
+            
+        
+
+        circle_marker_c24b6b9ec5072c8ee35896ad3c9c7345.bindPopup(popup_13cd07a88ab96855395221a76226dd8e)
+        ;
+
+        
+    
+    
+            circle_marker_c24b6b9ec5072c8ee35896ad3c9c7345.bindTooltip(
+                `<div>
+                     New Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b2d876cff0c3559f28faca1bc2c808bb = L.circleMarker(
+                [40.49398999, -74.44653987],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_064be526601ec6c6c9ba13f48a7aa8a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cdf006b1b249f3333b253d4911d2b4d = $(`<div id="html_9cdf006b1b249f3333b253d4911d2b4d" style="width: 100.0%; height: 100.0%;">Bayard Street: No Apparent Injury (O)</div>`)[0];
+                popup_064be526601ec6c6c9ba13f48a7aa8a0.setContent(html_9cdf006b1b249f3333b253d4911d2b4d);
+            
+        
+
+        circle_marker_b2d876cff0c3559f28faca1bc2c808bb.bindPopup(popup_064be526601ec6c6c9ba13f48a7aa8a0)
+        ;
+
+        
+    
+    
+            circle_marker_b2d876cff0c3559f28faca1bc2c808bb.bindTooltip(
+                `<div>
+                     Bayard Street
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6dd4aadc4a931f611dcf526b5875a6fa = L.circleMarker(
+                [40.49147183, -74.45466811],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_54e4b939edff3dcfdb2242cc756e2fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6c4cf877b3cf32a5a1e8132848697b1 = $(`<div id="html_e6c4cf877b3cf32a5a1e8132848697b1" style="width: 100.0%; height: 100.0%;">Jersey Avenue (MIDDLESEX COUNTY 693): Suspected Serious Injury (A)</div>`)[0];
+                popup_54e4b939edff3dcfdb2242cc756e2fd7.setContent(html_e6c4cf877b3cf32a5a1e8132848697b1);
+            
+        
+
+        circle_marker_6dd4aadc4a931f611dcf526b5875a6fa.bindPopup(popup_54e4b939edff3dcfdb2242cc756e2fd7)
+        ;
+
+        
+    
+    
+            circle_marker_6dd4aadc4a931f611dcf526b5875a6fa.bindTooltip(
+                `<div>
+                     Jersey Avenue (MIDDLESEX COUNTY 693)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa4ecb124e08f1b59307ae1ff276133f = L.circleMarker(
+                [40.49944216, -74.45288863],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_1074df885b62116efa9254f3c63061b5);
+        
+    
+        var popup_a5ee71211757c93b94e4f1c2fd902588 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9ba1d662b37131560e82a15a495b88a = $(`<div id="html_f9ba1d662b37131560e82a15a495b88a" style="width: 100.0%; height: 100.0%;">Rt 527 (Easton Avenue): No Apparent Injury (O)</div>`)[0];
+                popup_a5ee71211757c93b94e4f1c2fd902588.setContent(html_f9ba1d662b37131560e82a15a495b88a);
+            
+        
+
+        circle_marker_fa4ecb124e08f1b59307ae1ff276133f.bindPopup(popup_a5ee71211757c93b94e4f1c2fd902588)
+        ;
+
+        
+    
+    
+            circle_marker_fa4ecb124e08f1b59307ae1ff276133f.bindTooltip(
+                `<div>
+                     Rt 527 (Easton Avenue)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
