@@ -1,5 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import pandas as pd
+df = pd.read_csv("top10.csv")
+pedstop10 = pd.read_csv("top10peds.csv")
 st.set_page_config(page_title="Safer Roads: New Brunswick",layout="wide",page_icon="🚙")
 st.title("Safer Roads: New Brunswick",text_alignment="center")
 st.caption("Analyzing Crashes in the City of New Brunswick to help Emergency Services allocate resources",text_alignment="center")
@@ -20,6 +23,13 @@ st.markdown(
     "🟢 No apparent injury &nbsp; 🟡 Possible injury &nbsp; 🟠 Minor injury &nbsp;🔴 Serious injury &nbsp; ⚫ Fatal"
 )
 
+c1,c2 = st.columns(2)
+c1.subheader("Top 10 Intersections where Crashes occur")
+c1.dataframe(df,width=590,height=385,hide_index=True)
+
+c2.subheader("Top 10 Streets where Pedestrians are Struck")
+c2.dataframe(pedstop10,width=590,height=385,hide_index=True)
+    
 st.header("Where are pedestrians most getting struck by cars?",text_alignment="center")
 st.write("The street with the most pedestrians struck is Easton Ave, which is right near the College Avenue Campus. Being able to visualize where pedestrians are most struck at may help local government decide which street needs their pedestrian infrastructure upgraded.")
 
